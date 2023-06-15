@@ -50,7 +50,7 @@ const PreviewScreen = ({route}) => {
       setIsLoading(true);
       try {
         const base64 = await readAsStringAsync(imagePath, { encoding: EncodingType.Base64 });
-        const response = await fetch('https://vision.googleapis.com/v1/images:annotate?key=AIzaSyB2WZ01ZlHINkw_W_KpGO4_2gRu3t97SB8', {
+        const response = await fetch('api-key', {
           method: 'POST',
           body: JSON.stringify({
             requests: [
