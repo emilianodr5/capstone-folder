@@ -1,0 +1,45 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "1.17.11",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/stack": "^6.3.16",
+    "csv": "^6.2.10",
+    "csv-parse": "^5.3.6",
+    "csvtojson": "^2.0.10",
+    "easybase-react": "^2.2.13",
+    "expo": "~48.0.9",
+    "expo-barcode-scanner": "^12.3.2",
+    "expo-camera": "~13.2.1",
+    "expo-constants": "^14.2.1",
+    "expo-image-crop": "^1.0.4",
+    "expo-image-manipulator": "~11.1.1",
+    "expo-image-picker": "~14.1.1",
+    "expo-media-library": "^15.2.3",
+    "expo-permissions": "^14.1.1",
+    "expo-status-bar": "~1.4.4",
+    "react": "18.2.0",
+    "react-native": "0.71.7",
+    "react-native-camera": "^4.2.1",
+    "react-native-fs": "^2.20.0",
+    "react-native-image-crop-picker": "^0.39.0",
+    "react-native-image-picker": "^5.3.1",
+    "react-native-mlkit-ocr": "^0.3.0",
+    "react-native-svg": "13.4.0",
+    "react-native-svg-charts": "^5.4.0",
+    "react-native-vision-camera": "^2.15.4",
+    "stream-browserify": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
